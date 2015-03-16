@@ -1,0 +1,5 @@
+Contains an implementation of a Swiss-system tournament.
+
+tournament.py - interacts with the tournament database to add and remove players, add matches, get player standings, and pair players
+tournament.sql - contains the table defenitions for the tournament database
+tournament_test.py - test cases for tournament.py
