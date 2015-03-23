@@ -7,8 +7,8 @@ Contains an implementation of a Swiss-system tournament. The test file creates p
 
 To run tests, run "python tournament_test.py". 
 To use tournament.py:
-    * create a python file and import tournament ("from tournament import *")
-    * call the functions to create a tournament
+- create a python file and import tournament ("from tournament import *")
+- call the functions to create a tournament
 To see an example, refer to the functions in tournament_test.py.
 
 
