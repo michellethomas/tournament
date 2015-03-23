@@ -119,7 +119,6 @@ def swissPairings():
     results = cursor.fetchall()
     player_win_record = sorted(results,key=lambda record: record[2] / record[3])
     pairs = []
-    print player_win_record
     num_players = len(player_win_record)
    
     # Pair users with adjacent win records
@@ -129,5 +128,6 @@ def swissPairings():
         pairs.append(
             (user_one[0], user_one[1], user_two[0], 
             user_two[1]))
+    DB.close()
     return pairs
 
