@@ -5,7 +5,13 @@ Contains an implementation of a Swiss-system tournament. The test file creates p
 
 ##Instructions
 
-To run tests, run "python tournament_test.py". 
+###Create the tournament database
+Run "psql -f tournament.sql" to create the tournament database and associated tables.
+
+###Run Tests
+To run tests, run "python tournament_test.py".
+
+###Use the module
 To use tournament.py:
 - create a python file and import tournament ("from tournament import *")
 - call the functions to create a tournament
